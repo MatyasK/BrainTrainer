@@ -60,11 +60,11 @@ public class MainActivity extends AppCompatActivity {
             button2.setText(String.valueOf((int)(Math.random() * 101)));
             button3.setText(String.valueOf(firstNumber+secondNumber));
             button4.setText(String.valueOf((int)(Math.random() * 101)));
-        }else {
+        }else if (position == 4){
             button1.setText(String.valueOf((int)(Math.random() * 101)));
             button2.setText(String.valueOf((int)(Math.random() * 101)));
-            button4.setText(String.valueOf(firstNumber+secondNumber));
-            button3.setText(String.valueOf((int)(Math.random() * 101)));
+            button4.setText(String.valueOf((int)(Math.random() * 101)));
+            button3.setText(String.valueOf(firstNumber+secondNumber));
         }
 
 
